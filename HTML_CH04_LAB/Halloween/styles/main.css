@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+ }
+h2::first-letter{
+    font-size: 40px;
+}
+h6
+{
+    font-size: smaller;
+}
+h1{
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+h5{
+    font-size: small;
+}
+#headerPicture
+{
+    float: left;
+    width: 75px;
+    height: 75px;
+}
+header
+{
+    text-indent: 1em;
+}
+ul{
+    line-height: 1.5;
+}
+a:link{
+    color: orange;
+    font-weight: bold;
+}
+a:visited{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color: green;
+}
+footer{
+    font-size: smaller ;
+    text-align: center;
+}

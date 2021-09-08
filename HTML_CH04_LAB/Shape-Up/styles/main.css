@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+a:link{
+    color: maroon;
+}
+a:hover{
+    color: steelblue;
+}
+.logo{
+    float: left;
+}
+header{
+    text-indent: 2em;
+}
+.shapeUp{
+    color: steelblue;
+    font-style: italic;
+    text-shadow:  2px 1px steelblue;
+}
+li{
+    line-height: 2em;
+}
+ul a:link{
+    font-weight: bolder;
+    color: steelblue;
+}
+ul a:hover{
+    color: maroon;
+}
