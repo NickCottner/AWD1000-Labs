@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+#container{
+    width: 900px;
+    margin:  auto;
+    border: solid steelblue;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 5px black;
+    font-size: 100%;
+}
+a:link{
+    color: maroon;
+}
+a:hover{
+    color: steelblue;
+}
+.logo{
+    float: left;
+}
+header{
+    text-indent: 2em;
+    border-bottom: solid steelblue;
+    background: linear-gradient(180deg, white 0%, lightsteelblue 100%);
+}
+.shapeUp{
+    color: steelblue;
+    font-style: italic;
+    text-shadow:  2px 1px steelblue;
+}
+li{
+    line-height: 2em;
+}
+ul a:link{
+    font-weight: bolder;
+    color: steelblue;
+}
+ul a:hover{
+    color: maroon;
+}
+footer{
+    background: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.sideBar{
+    float:left;
+    width: 275px;
+    height: 700px;
+    }
+    
