@@ -1,0 +1,149 @@
+body
+ {
+    background-image: url("../images/bats.gif");
+    background-repeat:repeat;
+ }
+ #container
+ {
+    border: 3px solid black;
+    margin: 0 auto;
+    width: 800px;
+    box-shadow: 3px 6px ;
+    background-color: white;
+    padding-top: -1em;
+    margin-right: auto;
+    margin-left: auto;
+   
+      
+ }
+
+h2:first-letter{
+    font-size: 40px;
+}
+h6
+{
+    font-size: smaller;
+}
+
+h5{
+    font-size: small;
+}
+#headerPicture
+{
+    float: left;
+}
+header
+{
+    text-indent: 1em;
+    border-bottom: solid black;
+    background-image: linear-gradient(45deg, white , orange 75%, black);
+    margin-top: -1.345em;
+    margin-right: -.05em;
+    vertical-align: middle;
+
+}
+header>h1{
+    padding-left: 80px;
+    margin-bottom:0; 
+    margin-left:10px;
+    }
+    
+header>h3{
+    margin-top:0;
+    padding-left: 80px;
+    margin-left:10px;
+    }
+
+#navBar ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    }
+    
+#navBar ul li {
+    float: left;
+    }
+    
+#navBar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    }
+    
+#navBar ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    }
+    
+#navBar ul li a.Home {
+    color: orange;
+    }
+    
+#navBar ul ul li {
+    float: none;
+    }
+    
+#navBar ul li:hover > ul {
+    display: block;
+    }
+    
+#navBar>ul:after{
+    content: "";
+    display: block;
+    clear: both;
+    }
+#navBar ul.subMenu a:hover{
+    background: #a9a6a6;
+    }
+ ul.sideBar{
+        float:left;
+        margin-top: 20px;
+        width: 150px;
+        clear: both;
+        height: 700px;
+        padding: 5px;
+    }   
+ nav ul.sideBar li{
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: orange;
+    text-align: center;
+    padding: 4px;
+    margin: 0px 10px 10px 0px;
+}
+ nav ul.sideBar li a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    line-height: 1.5;
+    
+}
+a:link{
+    color: orange;
+    font-weight: bold;
+}
+a:visited{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color: green;
+}
+footer{
+    font-size: smaller ;
+    vertical-align: middle;
+    border-top: solid black;
+    background-image: linear-gradient(45deg, black , orange 75%, white);
+    padding-bottom: 1px;
+}
+.image{
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+}
