@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:800px)
+ {
+    body{
+        background-image: none;
+        font-size: 90%;
+        box-shadow: none;
+    }
+ }
+body
+ {
+    background-image: url("../images/bats.gif");
+    background-repeat:repeat;
+ }
+ 
+ #container
+ {
+    border: 3px solid black;
+    margin: 0 auto;
+    max-width: 960px;
+    box-shadow: 3px 6px ;
+    background-color: white;
+    padding-top: -1em;
+    margin-right: auto;
+    margin-left: auto;    
+ }
+#headerPicture
+{
+    float: left;
+}
+header
+{
+    text-indent: 1em;
+    border-bottom: solid black;
+    background-image: linear-gradient(45deg, white , orange 75%, black);
+    margin-top: -1.345em;
+    margin-right: -.05em;
+    vertical-align: middle;
+
+}
+header>h1{
+    padding-left: 80px;
+    margin-bottom:0; 
+    margin-left:10px;
+    }
+    
+header>h3{
+    margin-top:0;
+    padding-left: 80px;
+    margin-left:10px;
+    }
+#navBar ul {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    }
+#navBar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    }
+#navbar li{
+    width: 60rem;
+    margin: 0 5px  0;
+}
+#navBar ul li a {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    }      
+#navBar ul ul li {
+    display: block;
+    }
+    
+#navBar ul li:hover > ul {
+    display: block;
+    }
+    
+#navBar>ul:after{
+    content: "";
+    display: block;
+    clear: both;
+    }
+#navBar ul.subMenu a:hover{
+    background: #a9a6a6;
+    text-align: center;
+    }
+ ul.sideBar{
+        float:left;
+        margin-top: 20px;
+        width: 150px;
+        clear: both;
+        height: 700px;
+        padding: 5px;
+    }   
+ nav ul.sideBar li{
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: orange;
+    text-align: center;
+    padding: 4px;
+    margin: 0px 10px 10px 0px;
+}
+ nav ul.sideBar li a{
+    text-decoration: none;
+    color: black;
+}
+section ul{
+    list-style-type: none;
+}
+a:link{
+    color: orange;
+    font-weight: bold;
+}
+a:visited{
+    color: orange;
+    font-weight: bold;
+}
+a:hover{
+    color: green;
+}
+footer{
+    font-size: smaller ;
+    vertical-align: middle;
+    border-top: solid black;
+    background-image: linear-gradient(45deg, black , orange 75%, white);
+    padding-bottom: 1px;
+}
+@media only screen and (max-width: 800px) {
+	html {
+		background-image: none;
+	}
+	body {
+		font-size: 90%;
+		box-shadow: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	header h2 {
+		font-size: 200%;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	header h2 {
+		font-size: 180%;
+	}
+	header h3 {
+		font-size: 115%;
+	}
+	section h1 {
+		font-size: 130%;
+	}
+}
+
