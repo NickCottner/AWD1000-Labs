@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="../css/email.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+</head>
+
+<body>
+	
+	
+	<div id ="container">
+		<header>
+			<img src="../images/pumpkin.gif" alt="Pumpkin Gif" id="headerPicture">
+			<h1>The Halloween Store</h1>
+			<h3>For the little Goblin in all of us!</h3>
+		</header>
+		<nav id="navBar">
+			<ul>
+				<li><a href="index.html" > Home</a></li>
+				<li><a href="#"> Product List</a></li>
+				<li><a href="#"> Personal</a></li>
+				<li><a href="#"> Decorating Ideas</a>
+				<ul class="subMenu">
+				<li><a href="#"> Outdoor</a></li>
+				<li><a href="#"> Indoor</a></li>
+				<li><a href="#"> Table</a></li>
+				<li><a href="#"> Treats</a></li>
+				</ul></li>
+				<li><a href="#"class="Home" > Join EMail</a>
+				</li>
+				</ul>
+		</nav>
+		
+		<nav>
+		<ul class="sideBar">
+				<li><a href="props.html">Props</a></li>
+				<li><a href="costumes.html">Costumes</a></li>
+				<li><a href="specialEffects.html">Special Effects</a></li>
+				<li><a href="masks.html">Masks</a></li>
+		</ul>
+		</nav>
+		<main class="contact">
+			<h1 class="contactHeader">Email List</h1>
+			<p class="contactPara">
+				All Fields Required!
+			</p>
+	
+			<div id="contactFormDiv">
+				<form class="form"
+				method="GET"
+				action="subcribe.html"
+				id="contactForm"
+				name="Contact_Form">
+			
+			<label class="contactLabel"
+				for="firstName">First Name
+			</label>
+			<input type="text" name="firstName" id="firstName" class="contactTextBox">
+			<span class="contactSpan">*</span><br><br>
+			
+	   <label class="contactLabel"
+				for="lastName">Last Name
+			</label>
+			<input type="text" name="lastName" id="lastName" class="contactTextBox">
+			<span class="contactSpan">*</span><br><br>
+	
+		<label class="contactLabel"
+			for="zip">Zip
+		</label>
+		<input type="text" name="zip" id="zip" class="contactTextBox">
+		<span class="contactSpan">*</span><br><br>
+	
+		<label class="contactLabel"
+		for="phone">Cell Phone
+		</label>
+		<input type="text" name="phone" id="phone" class="contactTextBox">
+		<span class="contactSpan">*</span><br><br>
+
+		<div class="contactButton">
+            <input type="submit"
+                   id="join"
+                   name="join"
+                   value="Subscribe">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset"
+                   id="reset"
+                   name="reset"
+                   value="Reset">
+        </div>
+	
+    </form>
+	</div>
+	</main>
+	
+</body>
+</html>
