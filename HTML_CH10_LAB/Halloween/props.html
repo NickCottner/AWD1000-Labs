@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Halloween Store</title>
+	<link rel="stylesheet" href="styles/c10_category.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<script src="js/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#navBar').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+	<div id ="container">
+		<header>
+			<div class="headerImage">
+				<img src="images/pumpkin.gif" alt="Pumpkin Gif">
+				<h1><span>The Halloween Store</span></h1>
+				<h3><span>For the little Goblin in all of us!</span></h3>
+			</div>
+			
+			<nav id="navBar">
+				<ul>
+					<li><a href="index.html"> Home</a></li>
+					<li><a href="#"> Product List</a></li>
+					<li><a href="#"> Personal</a></li>
+					<li><a href="#"> Decorating Ideas</a>
+					<ul class="subMenu">
+					<li><a href="#"> Outdoor</a></li>
+					<li><a href="#"> Indoor</a></li>
+					<li><a href="#"> Table</a></li>
+					<li><a href="#"> Treats</a></li>
+					</ul></li>
+					<li><a href="#"> Join EMail</a>
+					</li>
+					</ul>
+			</nav>
+		</header>
+		
+		<aside><nav>
+			<ul class="sideBar">
+				<li><a href="props.html">Props</a></li>
+				<li><a href="costumes.html">Costumes</a></li>
+				<li><a href="specialEffects.html">Special Effects</a></li>
+				<li><a href="masks.html">Masks</a></li>
+			</ul>
+		</nav>
+	</aside>
+		<section>
+			<h1>Props</h1>
+			<ul>
+				<li><a href="#">Flying Bats</a>
+					<p>
+						Bats flying in front of a full moon make for an eerie spectacle.
+						<br><strong>Price:</strong> 69.99
+					</p>
+				</li>
+				<li><a href="#">20" Deranged cat</a>
+					<p>
+						This cat provides its own light and is perfect for a backyard haunting.
+						<br><strong>Price:</strong> 19.99
+					</p>
+				</li>
+				<li><a href="#">16" Rat</a>
+					<p>
+						This guy is sure to shorten the stay of any unwanted house guests..
+						<br><strong>Price:</strong> 14.99
+					</p>
+				</li>
+				<li><a href="#">20" Rat</a>
+					<p>
+						Yuch! This one will keep you awake at night
+						<br><strong>Price:</strong> 19.95
+					</p>
+				</li>
+				<li><a href="#">Life-size skeleton</a>
+					<p>
+						This blown plastic skeleton will be the life of the party. Use him as is or dress him up for an even better effect..
+						<br><strong>Price:</strong> 14.95
+					</p>
+				</li>
+			</ul>
+		</section>
+	<footer>
+		<p>&copy; 2018 Ben Murach</p>
+	</footer>
+</div>	
+</body>
+</html>

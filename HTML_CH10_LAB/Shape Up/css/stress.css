@@ -1,0 +1,107 @@
+#container{
+    width: 900px;
+    margin:  auto;
+    border: solid steelblue;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px black;
+    font-size: 100%;
+}
+header{
+    border-bottom: solid maroon;
+    background: linear-gradient(180deg, white 0%, lightsteelblue 100%);
+    padding: 1.5em 0 2em 0;
+    
+}
+header h1{
+    color: steelblue;
+    font-style: italic;
+    text-shadow:  2px 1px steelblue;
+    font-size: 175%;
+}
+header h3 {
+        font-size: 130%;
+        font-style: italic;
+}
+header img {
+    float: left;
+    padding: 0 3.75%;
+}
+.navBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    background-color: steelblue;
+    margin-bottom: -2rem;
+}
+.navBar li{
+    flex-basis: 100%;
+}
+.navBar li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 1em 0
+}
+.navBar li a:hover{
+    background-color: maroon;
+}
+.navBar li a:visited{
+    text-decoration: none;
+}
+.navBar li a.current{
+    color: yellow;
+}
+main{
+    display: flex;
+}
+section {
+    flex-basis: 70%;
+    order: 2;
+	padding: 0 2.5% 20px 2.5%;
+}
+section h3{
+    color: maroon;
+}
+aside{
+    flex-basis: 30%;
+    order: 1;
+	padding: 0 0 20px 2.5%;
+}
+aside h3{
+    color: maroon;
+}
+.sideBar{
+    list-style-type: none;
+}
+.sideBar li a:link{
+    color: steelblue;
+    text-decoration: none;
+}
+@media(min-width:400px) and (max-width: 600px)
+{
+    body{
+        display: block;
+    }
+}
+@media(min-width: 601px) and (max-width: 900px)
+{
+    body{
+        display: block;
+    }
+}
+@media(min-width: 901px) and (max-width: 1200px)
+{
+    body{
+        display: block;
+    }
+}
+@media(max-width: 2500px)
+{
+    body{
+        display: block;
+    }
+}
