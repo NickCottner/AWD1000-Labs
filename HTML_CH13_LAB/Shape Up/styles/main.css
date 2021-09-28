@@ -1,0 +1,130 @@
+*{
+    font-family: sans-serif;
+}
+#container{
+    width: 900px;
+    margin:  auto;
+    border: solid steelblue;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 5px black;
+    font-size: 100%;
+}
+#navBar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    background-color: steelblue;
+    margin-bottom: -1rem;
+    }
+    
+#navBar ul li {
+    flex-basis: 100%;
+    }
+    
+#navBar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    }
+    
+#navBar ul li a {
+    display: block;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    background-color:steelblue;
+    color: white;
+    }
+    
+#navBar ul li a.Home {
+    color: black;
+    }
+    
+#navBar ul li:hover > ul {
+    display: block;
+    }
+    
+#navBar>ul:after{
+    content: "";
+    display: block;
+    clear: both;
+    }
+#navBar ul.subMenu a:hover{
+    background: lightsteelblue;
+    }
+ ul.sideBar{
+        float:left;
+        margin-top: 20px;
+        width: 150px;
+        clear: both;
+        height: 700px;
+        padding: 5px;
+    }
+a:link{
+    color: maroon;
+}
+a:hover{
+    color: steelblue;
+}
+.logo{
+    float: left;
+}
+header{
+    text-indent: 2em;
+    border-bottom: solid steelblue;
+    background: linear-gradient(180deg, white 0%, lightsteelblue 100%);
+}
+.shapeUp{
+    color: steelblue;
+    font-style: italic;
+    text-shadow:  2px 1px steelblue;
+}
+li{
+    line-height: 2em;
+}
+ul a:link{
+    font-weight: bolder;
+    color: steelblue;
+}
+ul a:hover{
+    color: maroon;
+}
+footer{
+    background: steelblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+section{
+    width: 825px;
+}
+main{
+    display: flex;
+}
+.sideBar{
+    float:left;
+    width: 275px;
+    height: 700px;
+    margin: 5px 5px 5px 5px;
+    }
+.sideBar li a{
+        text-decoration: none;
+}
+.flaticon{
+    float: left;
+    padding-right: 1px;
+}
+.flaticonSource a:link{
+    color: black;
+}
+.flaticonSource a:hover{
+    color:white;
+}
+.flaticonSource a:visited{
+    color: black;
+}
+ 
