@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Farenheit to Celsius</title>
+</head>
+
+<body> 
+    <main>
+        <script>
+            let fTemp = parseFloat(prompt("Please Enter a Temperature Between -100 and 212")).toFixed(1);
+
+            let cTemp = parseFloat((fTemp - 32) * 5/9).toFixed(1);
+
+            document.write("<h1>Convert From Farenheit to Celsius</h1>");
+            document.write(`${fTemp} F = ${cTemp} C`)
+
+        </script>
+    </main>   
+</body>
+</html>
